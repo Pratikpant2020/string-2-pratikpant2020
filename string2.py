@@ -9,8 +9,16 @@
 # Return the resulting string.
 
 def verbing(s):
-    # +++your code here+++
-    return
+    if len(s) >= 3:
+     if s. endswith("ing"):
+      s += "ly"
+     else:
+        s += "ing"
+     return s
+    s = "run"
+    
+
+
 
 
 # E. not_bad
@@ -23,6 +31,9 @@ def verbing(s):
 # This dinner is good!
 
 def not_bad(s):
+    not_index = s.find('not')
+    bad_index = s.find('bad')
+
     # +++your code here+++
     return
 
